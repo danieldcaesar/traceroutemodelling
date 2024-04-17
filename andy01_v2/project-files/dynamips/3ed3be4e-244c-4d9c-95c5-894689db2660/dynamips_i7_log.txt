@@ -1,0 +1,38 @@
+Apr 15 18:54:18.674 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 15 18:54:18.674 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39537.
+Apr 15 18:54:18.687 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 15 18:54:18.688 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips 
+Apr 15 18:54:18.688 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips
+Apr 15 18:54:18.688 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/86c3da24-2795-4560-8e2e-750b2e6253bc 
+Apr 15 18:54:18.688 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/86c3da24-2795-4560-8e2e-750b2e6253bc
+Apr 15 18:54:18.688 HYPERVISOR: exec_cmd: vm create AA08 8 c3745 
+Apr 15 18:54:18.688 VM: VM AA08 created.
+Apr 15 18:54:18.689 HYPERVISOR: exec_cmd: vm set_con_tcp_port AA08 5009 
+Apr 15 18:54:18.689 HYPERVISOR: exec_cmd: c3745 get_mac_addr AA08 
+Apr 15 18:54:18.689 HYPERVISOR: exec_cmd: vm set_disk0 AA08 0 
+Apr 15 18:54:18.690 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.690 HYPERVISOR: exec_cmd: vm set_idle_pc AA08 0x60aa1da0 
+Apr 15 18:54:18.690 HYPERVISOR: exec_cmd: vm set_ios AA08 /home/anderson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 15 18:54:18.691 HYPERVISOR: exec_cmd: c3745 set_mac_addr AA08 c408.39c7.0000 
+Apr 15 18:54:18.691 HYPERVISOR: exec_cmd: vm set_nvram AA08 256 
+Apr 15 18:54:18.692 HYPERVISOR: exec_cmd: vm set_ram AA08 256 
+Apr 15 18:54:18.692 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.692 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 1 0 NM-1FE-TX 
+Apr 15 18:54:18.692 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.693 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 2 0 NM-1FE-TX 
+Apr 15 18:54:18.693 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.693 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 3 0 NM-1FE-TX 
+Apr 15 18:54:18.694 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.694 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 4 0 NM-1FE-TX 
+Apr 15 18:54:18.694 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.694 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 0 16 WIC-2T 
+Apr 15 18:54:18.695 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.695 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 0 32 WIC-2T 
+Apr 15 18:54:18.695 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:18.695 HYPERVISOR: exec_cmd: vm slot_add_binding AA08 0 48 WIC-2T 
+Apr 15 18:54:21.048 HYPERVISOR: exec_cmd: nio create_udp udp-ab92062c-4aae-4696-9542-077ef55e41d2 10022 127.0.0.1 10023 
+Apr 15 18:54:21.262 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AA08 0 16 udp-ab92062c-4aae-4696-9542-077ef55e41d2 
+Apr 15 18:54:21.263 HYPERVISOR: exec_cmd: vm get_status AA08 
+Apr 15 18:54:21.432 HYPERVISOR: exec_cmd: nio create_udp udp-6dd1842f-1507-43e0-bef0-a2b94d43e690 10026 127.0.0.1 10027 
+Apr 15 18:54:21.433 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AA08 0 17 udp-6dd1842f-1507-43e0-bef0-a2b94d43e690 
+Apr 15 18:54:21.434 HYPERVISOR: exec_cmd: vm get_status AA08 
