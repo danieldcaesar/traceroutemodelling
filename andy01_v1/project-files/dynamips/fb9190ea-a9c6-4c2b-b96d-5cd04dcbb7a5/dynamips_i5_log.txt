@@ -1,0 +1,54 @@
+Apr 15 17:05:50.027 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 15 17:05:50.027 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52311.
+Apr 15 17:05:50.035 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 15 17:05:50.036 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips 
+Apr 15 17:05:50.036 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips
+Apr 15 17:05:50.036 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/8ee671bf-bf86-4563-8b2e-4ea1923f9d86 
+Apr 15 17:05:50.036 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/8ee671bf-bf86-4563-8b2e-4ea1923f9d86
+Apr 15 17:05:50.036 HYPERVISOR: exec_cmd: vm create AA06 6 c3745 
+Apr 15 17:05:50.036 VM: VM AA06 created.
+Apr 15 17:05:50.037 HYPERVISOR: exec_cmd: vm set_con_tcp_port AA06 5007 
+Apr 15 17:05:50.037 HYPERVISOR: exec_cmd: c3745 get_mac_addr AA06 
+Apr 15 17:05:50.037 HYPERVISOR: exec_cmd: vm set_disk0 AA06 0 
+Apr 15 17:05:50.037 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.037 HYPERVISOR: exec_cmd: vm set_idle_pc AA06 0x60aa1da0 
+Apr 15 17:05:50.038 HYPERVISOR: exec_cmd: vm set_ios AA06 /home/anderson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 15 17:05:50.038 HYPERVISOR: exec_cmd: c3745 set_mac_addr AA06 c406.3986.0000 
+Apr 15 17:05:50.039 HYPERVISOR: exec_cmd: vm set_nvram AA06 256 
+Apr 15 17:05:50.039 HYPERVISOR: exec_cmd: vm set_ram AA06 256 
+Apr 15 17:05:50.039 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.039 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 1 0 NM-1FE-TX 
+Apr 15 17:05:50.040 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.040 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 2 0 NM-1FE-TX 
+Apr 15 17:05:50.040 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.040 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 3 0 NM-1FE-TX 
+Apr 15 17:05:50.040 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.041 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 4 0 NM-1FE-TX 
+Apr 15 17:05:50.041 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.041 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 0 16 WIC-2T 
+Apr 15 17:05:50.041 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.042 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 0 32 WIC-2T 
+Apr 15 17:05:50.042 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:50.042 HYPERVISOR: exec_cmd: vm slot_add_binding AA06 0 48 WIC-2T 
+Apr 15 17:05:51.793 HYPERVISOR: exec_cmd: nio create_udp udp-61d9cf4a-c4a9-4a51-888a-e60fa130790f 10014 127.0.0.1 10015 
+Apr 15 17:05:52.006 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AA06 0 17 udp-61d9cf4a-c4a9-4a51-888a-e60fa130790f 
+Apr 15 17:05:52.007 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:05:53.662 HYPERVISOR: exec_cmd: nio create_udp udp-0723dbdc-ea1d-426b-bd8a-f505158ffb8a 10040 127.0.0.1 10041 
+Apr 15 17:05:53.663 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AA06 0 16 udp-0723dbdc-ea1d-426b-bd8a-f505158ffb8a 
+Apr 15 17:05:53.664 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:06:07.492 HYPERVISOR: exec_cmd: vm set_ghost_status AA06 2 
+Apr 15 17:06:07.493 HYPERVISOR: exec_cmd: vm set_ghost_file AA06 /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 15 17:06:07.494 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:06:07.494 HYPERVISOR: exec_cmd: vm set_config AA06 configs/i6_startup-config.cfg 
+Apr 15 17:06:07.495 HYPERVISOR: exec_cmd: vm start AA06 
+Apr 15 17:35:23.552 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:35:23.552 HYPERVISOR: exec_cmd: vm stop AA06 
+Apr 15 17:35:23.682 VM: VM AA06 shutdown.
+Apr 15 17:35:23.684 HYPERVISOR: exec_cmd: vm extract_config AA06 
+Apr 15 17:35:24.593 HYPERVISOR: exec_cmd: vm get_status AA06 
+Apr 15 17:35:24.593 HYPERVISOR: exec_cmd: vm extract_config AA06 
+Apr 15 17:35:24.594 HYPERVISOR: exec_cmd: vm delete AA06 
+Apr 15 17:35:24.594 VM: VM AA06 destroyed.
+Apr 15 17:35:24.595 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 15 17:35:24.738 HYPERVISOR: Stopped.
+Apr 15 17:35:24.738 GENERAL: reset done.

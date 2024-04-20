@@ -1,0 +1,38 @@
+Apr 15 18:54:18.866 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 15 18:54:18.866 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55817.
+Apr 15 18:54:18.874 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 15 18:54:18.874 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips 
+Apr 15 18:54:18.874 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips
+Apr 15 18:54:18.875 HYPERVISOR: exec_cmd: hypervisor working_dir /home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/7380c708-d2ed-4df7-b9b1-64e846dd8dce 
+Apr 15 18:54:18.875 GENERAL: working_dir=/home/anderson/Desktop/info 3607/group project /INFO3507/project-files/dynamips/7380c708-d2ed-4df7-b9b1-64e846dd8dce
+Apr 15 18:54:18.875 HYPERVISOR: exec_cmd: vm create R11 11 c3745 
+Apr 15 18:54:18.875 VM: VM R11 created.
+Apr 15 18:54:18.875 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5012 
+Apr 15 18:54:18.876 HYPERVISOR: exec_cmd: c3745 get_mac_addr R11 
+Apr 15 18:54:18.876 HYPERVISOR: exec_cmd: vm set_disk0 R11 0 
+Apr 15 18:54:18.876 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.876 HYPERVISOR: exec_cmd: vm set_idle_pc R11 0x60aa1da0 
+Apr 15 18:54:18.877 HYPERVISOR: exec_cmd: vm set_ios R11 /home/anderson/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 15 18:54:18.877 HYPERVISOR: exec_cmd: c3745 set_mac_addr R11 c40b.3bbc.0000 
+Apr 15 18:54:18.877 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Apr 15 18:54:18.878 HYPERVISOR: exec_cmd: vm set_ram R11 256 
+Apr 15 18:54:18.878 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.879 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-1FE-TX 
+Apr 15 18:54:18.879 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.879 HYPERVISOR: exec_cmd: vm slot_add_binding R11 2 0 NM-1FE-TX 
+Apr 15 18:54:18.879 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.880 HYPERVISOR: exec_cmd: vm slot_add_binding R11 3 0 NM-1FE-TX 
+Apr 15 18:54:18.880 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.880 HYPERVISOR: exec_cmd: vm slot_add_binding R11 4 0 NM-1FE-TX 
+Apr 15 18:54:18.880 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.881 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 16 WIC-2T 
+Apr 15 18:54:18.881 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.881 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 32 WIC-2T 
+Apr 15 18:54:18.882 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:18.882 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 48 WIC-2T 
+Apr 15 18:54:22.993 HYPERVISOR: exec_cmd: nio create_udp udp-0e503841-1da4-4208-8ad1-f8f9aa2f7a32 10052 127.0.0.1 10053 
+Apr 15 18:54:23.203 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 16 udp-0e503841-1da4-4208-8ad1-f8f9aa2f7a32 
+Apr 15 18:54:23.204 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 15 18:54:26.268 HYPERVISOR: exec_cmd: nio create_udp udp-c4de6c78-ad75-454b-848f-89d91a199a40 10096 127.0.0.1 10097 
+Apr 15 18:54:26.270 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 17 udp-c4de6c78-ad75-454b-848f-89d91a199a40 
+Apr 15 18:54:26.270 HYPERVISOR: exec_cmd: vm get_status R11 
